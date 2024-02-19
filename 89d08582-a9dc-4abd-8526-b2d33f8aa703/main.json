@@ -1,1 +1,1 @@
-{}
+{"interval": "1min", "assets": ["A"], "strategy": [{"type": "IF", "conditions": [{"type": "BINARY", "first": {"name": "RSI", "args": {"length": "1", "ticker": "A"}, "advanced": {}}, "second": {"name": "constant", "args": {"value": "0"}}, "comp": ">", "operator": ""}], "if_action": {"type": "ACTION", "steps": []}, "else_action": {"type": "ACTION", "steps": []}}]}
